@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiSelfHost", "WebApiSelfHost\WebApiSelfHost.csproj", "{87B63E6E-AB81-4F74-A157-ECCA1B07000E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessAccess", "BusinessAccess\BusinessAccess.csproj", "{ED9D5235-B3B2-4337-AA47-88E5D9637F05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionContainer", "ExceptionContainer\ExceptionContainer.csproj", "{CE206DEC-DD51-46B4-936A-CE97715B63A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87B63E6E-AB81-4F74-A157-ECCA1B07000E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B63E6E-AB81-4F74-A157-ECCA1B07000E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B63E6E-AB81-4F74-A157-ECCA1B07000E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B63E6E-AB81-4F74-A157-ECCA1B07000E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED9D5235-B3B2-4337-AA47-88E5D9637F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9D5235-B3B2-4337-AA47-88E5D9637F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9D5235-B3B2-4337-AA47-88E5D9637F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9D5235-B3B2-4337-AA47-88E5D9637F05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE206DEC-DD51-46B4-936A-CE97715B63A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE206DEC-DD51-46B4-936A-CE97715B63A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE206DEC-DD51-46B4-936A-CE97715B63A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE206DEC-DD51-46B4-936A-CE97715B63A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
