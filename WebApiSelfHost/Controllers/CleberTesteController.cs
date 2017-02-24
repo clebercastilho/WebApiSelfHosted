@@ -19,8 +19,8 @@ namespace WebApiSelfHost.Controllers
 
             var message = Hello.GetHelloType(id).Match(
                 success: result => response = Request.CreateResponse(HttpStatusCode.OK, result),
-                failure: exception => response = Request.CreateResponse(HttpStatusCode.BadRequest, exception.Message
-            ));
+                failure: exception => response = Request.CreateResponse(HttpStatusCode.BadRequest, exception.Message)
+            );
 
             return response;
         }
