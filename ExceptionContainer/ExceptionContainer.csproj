@@ -40,7 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExceptionContainer.cs" />
+    <Compile Include="Container.cs" />
+    <Compile Include="Notification.cs" />
+    <Compile Include="NotificationItems\NotificationDelimiter.cs" />
+    <Compile Include="NotificationItems\NotificationItem.cs" />
+    <Compile Include="NotificationItems\NotificationType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

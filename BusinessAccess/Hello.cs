@@ -9,12 +9,17 @@ namespace BusinessAccess
 {
     public class Hello
     {
-        public static Try<Exception, string> GetHelloType(int identifier)
+        public static Try<Notification, string> GetHelloType(int identifier)
         {
-            if (identifier <= 0)
-                return new NotImplementedException("Ação não implementada.");
+            var notification = new Notification(NotificationDelimiter.WebDelimiter);
 
-            var helloPersonID = string.Format("Hello World {0}!", identifier);
+            if (identifier <= 0)
+                notification.AddError("O identificador informado é inválido.");
+
+            if (notification.HasError)
+                return notification;
+
+            var helloPersonID = string.Format("Hello World: {0}ID!", identifier);
             return helloPersonID;
         }
     }
