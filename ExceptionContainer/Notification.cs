@@ -25,10 +25,12 @@ namespace ExceptionContainer
         //Properties
         public bool HasError
         {
-            get
-            {
-                return _messageList.Any(m => m.Type == NotificationType.Error);
-            }
+            get { return _messageList.Any(m => m.Type == NotificationType.Error); }
+        }
+
+        public bool HasAnyMessage
+        {
+            get { return _messageList.Any(); }
         }
 
         //Public methods
@@ -42,7 +44,7 @@ namespace ExceptionContainer
             });
         }
 
-        public void AddMessage(string message, NotificationType type, int code = 0)
+        public void AddMessage(NotificationType type, string message, int code = 0)
         {
             _messageList.Add(new NotificationItem
             {

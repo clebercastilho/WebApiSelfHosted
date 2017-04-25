@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessAccess", "BusinessA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionContainer", "ExceptionContainer\ExceptionContainer.csproj", "{CE206DEC-DD51-46B4-936A-CE97715B63A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelDB", "ModelDB\ModelDB.csproj", "{3F018A9A-57C5-43A0-A9FA-AEDE04E6147A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{CE206DEC-DD51-46B4-936A-CE97715B63A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE206DEC-DD51-46B4-936A-CE97715B63A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE206DEC-DD51-46B4-936A-CE97715B63A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F018A9A-57C5-43A0-A9FA-AEDE04E6147A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F018A9A-57C5-43A0-A9FA-AEDE04E6147A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F018A9A-57C5-43A0-A9FA-AEDE04E6147A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F018A9A-57C5-43A0-A9FA-AEDE04E6147A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

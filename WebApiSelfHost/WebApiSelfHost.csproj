@@ -83,6 +83,7 @@
     <Compile Include="Configuration\ApiConfiguration.cs" />
     <Compile Include="Configuration\OwinService.cs" />
     <Compile Include="Controllers\CleberTesteController.cs" />
+    <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -98,6 +99,10 @@
     <ProjectReference Include="..\ExceptionContainer\ExceptionContainer.csproj">
       <Project>{ce206dec-dd51-46b4-936a-ce97715b63a7}</Project>
       <Name>ExceptionContainer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModelDB\ModelDB.csproj">
+      <Project>{3f018a9a-57c5-43a0-a9fa-aede04e6147a}</Project>
+      <Name>ModelDB</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

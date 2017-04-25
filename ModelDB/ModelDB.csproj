@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ED9D5235-B3B2-4337-AA47-88E5D9637F05}</ProjectGuid>
+    <ProjectGuid>{3F018A9A-57C5-43A0-A9FA-AEDE04E6147A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BusinessAccess</RootNamespace>
-    <AssemblyName>BusinessAccess</AssemblyName>
+    <RootNamespace>ModelDB</RootNamespace>
+    <AssemblyName>ModelDB</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -41,19 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Hello.cs" />
+    <Compile Include="Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Usuarios.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ExceptionContainer\ExceptionContainer.csproj">
-      <Project>{ce206dec-dd51-46b4-936a-ce97715b63a7}</Project>
-      <Name>ExceptionContainer</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ModelDB\ModelDB.csproj">
-      <Project>{3f018a9a-57c5-43a0-a9fa-aede04e6147a}</Project>
-      <Name>ModelDB</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
